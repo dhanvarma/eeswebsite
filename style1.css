@@ -1,0 +1,50 @@
+nav {background:red;float:left;position:absolute;top:245px;left:-30px;opacity:0.9}
+nav ul {text-align:center;}
+nav ul li {float:left;display:inline;}
+nav ul li:hover {background:green;}
+nav ul li a {display:block;padding:15px 25px;color:black;}
+nav ul li ul {position:absolute;width:110px;background:red;}
+nav ul li ul li {width:110px;}
+nav ul li ul li a {display:block;padding:15px 10px;color:black;}
+nav ul li ul li:hover a {background:green;}
+nav ul li ul.fallback {display:none;}
+nav ul li:hover ul.fallback {display:block;}
+#topbackground1{opacity:0.8;position:absolute;width:1500px;top:-40px;left:-30px;height:350px;background: linear-gradient(#000000,#1a1a1a,#262626,#4d4d4d,#737373,#999999)}
+#topbackground2{opacity:0.2;position:absolute;left:60px;top:-30px;width:300px;height:150px;background-color:grey}
+#imagesliderpart{position:absolute;width:600px;top:-40px;left:730px;height:300px;}
+#mainborder{opacity:1;margin-top:30px;width:360px;height:130px;padding:20px;border-radius:10px;border:10px solid black;font-size:120%;}
+#maintext{color:white;opacity:0.9;text-align:center}
+#submaintext{color:white;letter-spacing:12px;font-size:15px;position:relative;left:100px;top:-10px;}
+#leftside {
+    line-height:30px;
+    background-color:#000080;
+    height:1000px;
+    width:100px;
+    top:500px;
+    padding:5px;	      
+    position:absolute;
+    top:120px;
+    left:-8px;
+}
+#rightside {
+    line-height:30px;
+    background-color:#d9d9d9;
+    height:1000px;
+    width:100px;
+    top:500px;
+    padding:5px;	      
+    position:absolute;
+    width:140px;
+    top:120px;
+    right:-2px;
+}
+#main {
+    opacity:1;
+    position:absolute;
+    left:100px;
+    top:120px;
+    height:1000px;
+    width:1500px;
+    width:350px;
+    padding:10px;	 	 
+}

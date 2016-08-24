@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>
+    .sidebar-nav {
+    padding: 9px 0;	
+}
+
+.dropdown-menu .sub-menu {
+    left: 100%;
+    position: absolute;
+    top: 4px;
+	list-style-type:none;
+    visibility: hidden;
+    margin-top: -1px;
+	background-color:#2c3e50;
+	min-height:177px;
+	border-radius:3px; 	
+	}
+.dropdown-menu .sub-menu li:hover{
+background-color:rgba(0,0,0,0.3);
+}
+.dropdown-menu .sub-menu li:hover a{
+color:#fff;
+}
+.dropdown-menu li:hover .sub-menu {
+    visibility: visible;
+}
+@media (min-width: 768px) {.dropdown-menu li:hover .sub-menu {visibility: visible;}}
+@media (min-width: 768px) {.dropdown:hover .dropdown-menu {display: block;}}
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.nav-tabs .dropdown-menu, .nav-pills .dropdown-menu, .navbar .dropdown-menu {
+    margin-top: 0;
+}
+
+.navbar .sub-menu:before {
+    border-bottom: 7px solid transparent;
+    border-left: none;
+    border-right: 7px solid rgba(0, 0, 0, 0.2);
+    border-top: 7px solid transparent;
+    left: -7px;
+    top: 10px;
+}
+.navbar .sub-menu:after {
+    border-top: 6px solid transparent;
+    border-left: none;
+    border-right: 6px solid #fff;
+    border-bottom: 6px solid transparent;
+    left: 10px;
+    top: 11px;
+    left: -6px;
+}
+</style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <title>Sachit Sehgal | Electrical Engineering Society</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/font-awesome.min.css" rel="stylesheet">
+  <link href="css/prettyPhoto.css" rel="stylesheet">
+  <link href="css/animate.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">  
+  <link rel="shortcut icon" href="images/ico/favicon.ico">
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/favicon.ico">
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/favicon.ico">
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/favicon.ico">
+  <link rel="apple-touch-icon-precomposed" href="images/ico/favicon.ico"> 
+</head><!--/head-->
+<body  style="background:linear-gradient(to right,#ffffff, #f2f2f2, #e6e6e6, #f2f2f2, #ffffff);">
+ <header class="navbar navbar-inverse navbar-fixed-top wet-asphalt" role="banner" style="height:auto;">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index.html"><img src="images\Newlogo1.png" alt="EES IITD logo" style="height:60px;width:150px;padding:0px;" /></a>
+      </div>
+            <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="http://vortex-iitd.com/">Vortex</a></li>
+                <li class="dropdown">
+                        <a href="events.html">Events<i class="caret"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Lifestyle</a>
+							<ul class="sub-menu">
+                            <li><a href="freshersnight.html">Freshers' Night</a></html>
+							<li><a href="fresherswelcome.html">Freshers' Welcome</a></li>
+							<li><a href="internkefundae.html">Intern ke Fundae</a></li>
+							</ul>
+							</li>
+							<li><a href="#">Competitive</a>
+							<ul class="sub-menu">
+							<li><a href="28nov.html">Waste Disposal System</a></li>
+							<li><a href="analogcircuits.html">Analog Circuits</a></li>
+                        </ul>
+                    </li>
+					<li><a href="#">Lecture</a>
+					<ul class="sub-menu">
+					<li><a href="imageprocessing.html">Image Processing</a></li>
+					<li><a href="analogcircuits.html">Analog Circuits</a></li>
+					<li><a href="23sep.html">Synapse</a></li>
+					
+					<li><a href="#">Data Analytics and Machine Learning</a></li>
+					</ul>
+					</li>
+					<li><a href="#">Workshop</a>
+					<ul class="sub-menu">
+					<li><a href="microcontroller.html">Microcontroller</a></li>
+					<li><a href="digitalworkshopimages.html">Digital Electronics</a></li>
+					</ul>
+					</li>
+					<li><a href="#">Sports</a>
+					<ul class="sub-menu">
+					<li><a href="fifalangaming.html">Fifa LAN Gaming</a></li>
+					<li><a href="langaming.html">CS LAN Gaming</a></li>
+					<li><a href="#">Tennis Ball Cricket</a></li>
+					</ul>
+					</li>
+					</ul>
+					</li>
+                    <li class="dropdown">
+                        <a href="#">Interview Series<i class="caret"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="interviews.html">Interview Series 2015-16</a></li>
+                            <li><a href="interviews1617.html">Interview Series 2016-17</a></li>
+                        </ul>
+                    </li>
+
+                    
+                    <li class="dropdown">
+                        <a href="contactus.html">Contact Us<i class="caret"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="presentteam.html">Current Team</a></li>
+                            <li><a href="pastteam1516.html">Team 2015-16</a></li>
+                            <li><a href="pastteam.html">Team 2014-15</a></li>
+                            
+                        </ul>
+                    </li>
+                    <li><a href="gallery.html">Gallery</a></li>
+					<li><a href="resources.html">Resources</a></li>
+                </ul>
+            </div>
+    </div>
+  </header><!--/header-->
+    <section id="title" class="emerald1">
+    <div class="container">
+          <h2>Electrical Engineering Society</h2>&nbsp&nbsp&nbsp
+          <h4>IIT Delhi</h4>
+        </div>
+        </div>
+    </section>
+  <section id="title" class="emerald" style="background:linear-gradient(to right,#ffffff, #f2f2f2, #e6e6e6, #f2f2f2, #ffffff);padding:00px;border-bottom:1px solid #a6a6a6;">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12" "col-md-6" "col-lg-12" "col-xs-12">
+          <h1 style="text-align:center"><b>Sachit Sehgal</b></h1>
+          <p style="text-align:right">-By <a href="https://www.facebook.com/iakash1326" target="_blank"><b>Akash Panther</b></a> and <a href="https://www.facebook.com/divyansh.shukla2" target="_blank"><b>Divyansh Shukla</b></a>.</p>
+        </div>
+      </div>
+    </div>
+  </section><!--/#title-->
+  <section id="index" class="container">
+    <div class="container">
+      <div class="row">
+    <div class="col-sm-6" class="col-md-6" class="col-xs-6" class="col-lg-6">
+      <p style="font-size:20px;font-family:Berlin Sans FB;color:#243342;">EES brings to you the interview of one of our most favourite graduates,<b> Sachit Sehgal</b>. He did an internship in Deutsche Bank, and later got a pre-placement offer from there. He was also a core team member of the organising committee of the very successful Rendezvous 2015. In this interview, he shares his pearls of wisdom for his juniors.</p>
+    </div>
+    <div class="col-sm-6" class="col-md-6" class="col-xs-6" class="col-lg-6">
+      <img src="images/sachitsehgal/sachit.jpg" class="img-responsivepic" style="position:relative;top:-15px;left: 100px;" alt="Image Of Sachit Sehgal" height="200px" width="200px">
+    </div>
+  </div>
+</div>
+    <div style="color: #222;">
+    <p style="font-size:25px;font-family:Bradley Hand ITC;"><b style="color:#000000;">1. What were your most memorable moments at IIT? Could you describe any moments when you felt low at IIT and what you did to get back to normal?</b></p>
+
+<p style="font-size:20px;font-family:Bradley Hand ITC;"><style="color: #222;">My most memorable moment at IIT has been organizing Rendezvous 2015. It was great bringing up the fest from scratch. We worked hard and our efforts payed off. It was amazing to see and help the fest grow from nothing to become what it was. However one of my lowest moments also came about because of Rendezvous 2015. On the final pro night, the unfortunate cancellation of the concert made me feel very bad. The entire fest built up to this and it converted into an anti-climax. What stays with everyone after a fest is the showstopper or the grand finale, how the fest ends on a high note. Sadly, because of the cancellation, the fest was slightly blemished and it made me feel like all my efforts went down the drain. I felt quite low then and with time I just accepted what happened. There was nothing that I could do, and so I slowly moved on. I still feel bad about it, but I don’t beat myself anymore thinking of that.<br /></p><br />
+
+<p style="font-size:25px;font-family:Bradley Hand ITC;"><b style="color:#000000;">2. Do you have any regrets from your time in IIT? </b> </p>
+
+<p style="font-size:20px;font-family:Bradley Hand ITC;"><style="color: #222;">I won’t say that I have any regrets. I have gotten around all of them and have come to terms with everything.<br /></p><br />
+
+<p style="font-size:25px;font-family:Bradley Hand ITC;"><b style="color:#000000;">3. What changes did you notice in your personality before and after IIT? How have your extra-curricular activities and internships been instrumental in causing this change?</b></p>
+
+<p style="font-size:20px;font-family:Bradley Hand ITC;"><style="color: #222;">My self-confidence has increased a lot since I joined IIT. I feel I can tackle new problems now that I would rather have dodged before. With the resources at hand, I know I can play around and find solutions. I would not be afraid to take up something new now. My internship exposed me to working of private sectors. I did my internship at Deustche Bank (DB). There, I realized that problems can be solved in 2 ways. The first way is just to reach the solution and the other is to get to the solution such that it is presentable and attractive. A sort of professionalism is required for that and I have picked it up from there. In the private world, hierarchies are followed much differently than what we have at IITs and much more different than other colleges also. Following orders and getting the work done on time are all important lessons that I learnt there. I also did a SURA in my second year. It was a project on plasmonics. It wasn’t very mathematical and was more of computational as we had to build models for Nano-plasma particles and their behaviours. It was research oriented. When my prof introduced the topic to me, he did so quite alluringly. That also attracted me to take it up. However after the project was over, I realised I couldn’t do it anymore. Although it might have sounded good initially, I came to know that I could not just sit all day in a lab researching. I did a project on how to optimize smart grades for my B Tech project. I took up the project because it was a mathematical concept and I was inclined towards mathematics.<br /></b></p><br />
+
+<p style="font-size:25px;font-family:Bradley Hand ITC;"><b style="color:#000000;">4. What words of advice would you give to your juniors- some things that they should do, some changes in the way of thinking, etc. Any specific advice for students of any particular year?</b></p>
+
+<p style="font-size:20px;font-family:Bradley Hand ITC;"><style="color: #222;">Firstly the juniors should not neglect academics. I won’t tell them to study all throughout the day, but if they just concentrate for the small amount of time that is required to complete the academic portion, it will serve them well. At the end of the day, the grade matters. It will be there on the top of their CVs also. However, I strongly suggest they take part in extracurricular activities as it helps to develop their personality. They must do it, but never at the cost of academics. Taking part in extracurricular activities will also help them in learning time management. Participation in events will be preceded by practice and that will teach them how to manage time, because time management is a crucial part of the rehearsals. Secondly, they should not stay in their rooms all day watching TV series, as there is a lot of time for that. They should not waste their time on such things when there are so many other opportunities knocking. I suggest them to go out, take part in various sports and clubs, find what they like, and keep pursuing it. When they do that, they get to meet new people and know the world- what actually is happening.<br /></style></b></p><br />
+
+<p style="font-size:25px;font-family:Bradley Hand ITC;"><b style="color:#000000;">5. What projects did you work on during IIT? Any favourite research stream?</b></p>
+
+<p style="font-size:20px;font-family:Bradley Hand ITC;"><style="color: #222;">As I said before, I worked on smart grades for my B Tech project and Plasmonics for my SURA in 2nd year. But, these projects have helped me realise that I do not like research. Hence, I do not have any favourite research topic.</b>
+</p><br />
+
+<p style="font-size:25px;font-family:Bradley Hand ITC;"><b style="color:#000000;">6. Did you find Electrical Engineering branch exciting? Any specific advice for your juniors in this branch?</b></p>
+
+<p style="font-size:20px;font-family:Bradley Hand ITC;"><style="color: #222;">It is one of the most exciting fields currently. For juniors interested in the subject, IIT Delhi is one of the best places to be in. Not only are the faculty highly qualified and talented, they are also very approachable and a rapport can be struck with them very quickly. They harbour new students well and help them in every possible way. There isn’t more one can ask.<br /></b></p><br />
+
+<div class="row">
+<div class="col-sm-6 col-lg-6 col-xs-12 col-md-6">
+<p style="font-size:25px;font-family:Bradley Hand ITC;"><b style="color:#000000;">7.  Have you found your passion? Many people face a dilemma over “what is that they would love to do in life”. How did your time at IIT help you realise your future goals and what is it that you want to do in life?</b></p>
+
+<p style="font-size:20px;font-family:Bradley Hand ITC;"><style="color: #222;">I haven’t found my passion yet, but I guess I am on my way to. 4 years at IIT aren’t enough, at-least in my opinion, for a person to find their passion. It gets them closer to it or takes them away from what they do not want to do. IIT helped me realise that research isn’t what I would be doing. So I will definitely move into the private sector. After a couple of years working on my first job, I will know where to go next or probably stay there. Right now, I have not found my passion. <br /></b></p><br />
+</div>
+<div class="col-sm-6 col-lg-6 col-xs-12 col-md-6">
+<img alt="Team pic" class="img-responsive" src="images/sachitsehgal/group.jpg" style="height:300px;width:600px;" /><br />
+</div>
+</div>
+<p style="font-size:25px;font-family:Bradley Hand ITC;"><b style="color:#000000;">8. Many students find it difficult to balance between academics and extra-curricular activities. How were you able to achieve this balance?</b></p>
+<p style="font-size:20px;font-family:Bradley Hand ITC;"><style="color: #222;">All these suggestions that I have given to juniors will help them find the balance between academics and extra-curricular activities. I implemented them myself, and found them a very crucial component of a person’s life at IIT.<br /></b></p><br />
+
+ </div>
+
+  </section>
+  <!-- /Career -->
+
+ <footer id="footer" class="midnight-blue">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6" "col-lg-6" "col-xs-6" "col-md-6">
+                    Copyright &copy; 2016 Electrical Engineering Society, IIT Delhi. All rights reserved.
+                </div>
+                <div class="col-sm-6" "col-lg-6" "col-xs-6" "col-md-6">
+                    <i>Website created by - <b><a href="https://www.facebook.com/profile.php?id=100007104154119&fref=ts">Vaibhav Srivastava</a> and <a href="https://www.facebook.com/manish.stud?fref=ts">Manish Singh<a></b></i> 
+                    <!--<ul class="pull-right">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Faq</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a id="gototop" class="gototop" href="#"><i class="icon-chevron-up"></i></a></li><!--#gototop--
+                    </ul>-->
+                </div>
+            </div>
+        </div>
+    </footer><!--/#footer-->
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.prettyPhoto.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

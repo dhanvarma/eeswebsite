@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>
+    .sidebar-nav {
+    padding: 9px 0;	
+}
+
+.dropdown-menu .sub-menu {
+    left: 100%;
+    position: absolute;
+    top: 4px;
+	list-style-type:none;
+    visibility: hidden;
+    margin-top: -1px;
+	background-color:#2c3e50;
+	min-height:177px;
+	border-radius:3px; 	
+	}
+.dropdown-menu .sub-menu li:hover{
+background-color:rgba(0,0,0,0.3);
+}
+.dropdown-menu .sub-menu li:hover a{
+color:#fff;
+}
+.dropdown-menu li:hover .sub-menu {
+    visibility: visible;
+}
+@media (min-width: 768px) {.dropdown-menu li:hover .sub-menu {visibility: visible;}}
+@media (min-width: 768px) {.dropdown:hover .dropdown-menu {display: block;}}
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.nav-tabs .dropdown-menu, .nav-pills .dropdown-menu, .navbar .dropdown-menu {
+    margin-top: 0;
+}
+
+.navbar .sub-menu:before {
+    border-bottom: 7px solid transparent;
+    border-left: none;
+    border-right: 7px solid rgba(0, 0, 0, 0.2);
+    border-top: 7px solid transparent;
+    left: -7px;
+    top: 10px;
+}
+.navbar .sub-menu:after {
+    border-top: 6px solid transparent;
+    border-left: none;
+    border-right: 6px solid #fff;
+    border-bottom: 6px solid transparent;
+    left: 10px;
+    top: 11px;
+    left: -6px;
+}
+</style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <title>Revant Soni | Electrical Engineering Society</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/font-awesome.min.css" rel="stylesheet">
+  <link href="css/prettyPhoto.css" rel="stylesheet">
+  <link href="css/animate.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">  
+  <link rel="shortcut icon" href="images/ico/favicon.ico">
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/favicon.ico">
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/favicon.ico">
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/favicon.ico">
+  <link rel="apple-touch-icon-precomposed" href="images/ico/favicon.ico"> 
+</head><!--/head-->
+<body  style="background:linear-gradient(to right,#ffffff, #f2f2f2, #e6e6e6, #f2f2f2, #ffffff);">
+ <header class="navbar navbar-inverse navbar-fixed-top wet-asphalt" role="banner" style="height:auto;">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index.html"><img src="images\Newlogo1.png" alt="EES IITD logo" style="height:60px;width:150px;padding:0px;" /></a>
+      </div>
+            <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="http://vortex-iitd.com/">Vortex</a></li>
+                <li class="dropdown">
+                        <a href="events.html">Events<i class="caret"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Lifestyle</a>
+							<ul class="sub-menu">
+                            <li><a href="freshersnight.html">Freshers' Night</a></html>
+							<li><a href="fresherswelcome.html">Freshers' Welcome</a></li>
+							<li><a href="internkefundae.html">Intern ke Fundae</a></li>
+							</ul>
+							</li>
+							<li><a href="#">Competitive</a>
+							<ul class="sub-menu">
+							<li><a href="28nov.html">Waste Disposal System</a></li>
+							<li><a href="analogcircuits.html">Analog Circuits</a></li>
+                        </ul>
+                    </li>
+					<li><a href="#">Lecture</a>
+					<ul class="sub-menu">
+					<li><a href="imageprocessing.html">Image Processing</a></li>
+					<li><a href="analogcircuits.html">Analog Circuits</a></li>
+					<li><a href="23sep.html">Synapse</a></li>
+					
+					<li><a href="#">Data Analytics and Machine Learning</a></li>
+					</ul>
+					</li>
+					<li><a href="#">Workshop</a>
+					<ul class="sub-menu">
+					<li><a href="microcontroller.html">Microcontroller</a></li>
+					<li><a href="digitalworkshopimages.html">Digital Electronics</a></li>
+					</ul>
+					</li>
+					<li><a href="#">Sports</a>
+					<ul class="sub-menu">
+					<li><a href="fifalangaming.html">Fifa LAN Gaming</a></li>
+					<li><a href="langaming.html">CS LAN Gaming</a></li>
+					<li><a href="#">Tennis Ball Cricket</a></li>
+					</ul>
+					</li>
+					</ul>
+					</li>
+                    <li class="dropdown">
+                        <a href="#">Interview Series<i class="caret"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="interviews.html">Interview Series 2015-16</a></li>
+                            <li><a href="interviews1617.html">Interview Series 2016-17</a></li>
+                        </ul>
+                    </li>
+
+                    
+                    <li class="dropdown">
+                        <a href="contactus.html">Contact Us<i class="caret"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="presentteam.html">Current Team</a></li>
+                            <li><a href="pastteam1516.html">Team 2015-16</a></li>
+                            <li><a href="pastteam.html">Team 2014-15</a></li>
+                            
+                        </ul>
+                    </li>
+                    <li><a href="gallery.html">Gallery</a></li>
+					<li><a href="resources.html">Resources</a></li>
+                </ul>
+            </div>
+    </div>
+  </header><!--/header-->
+    <section id="title" class="emerald1">
+    <div class="container">
+          <h2>Electrical Engineering Society</h2>&nbsp&nbsp&nbsp
+          <h4>IIT Delhi</h4>
+        </div>
+        </div>
+    </section>
+
+
+  <section id="title" class="emerald" style="background:linear-gradient(to right,#ffffff, #f2f2f2, #e6e6e6, #f2f2f2, #ffffff);padding:00px;border-bottom:1px solid #a6a6a6;">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12" "col-md-6" "col-lg-12" "col-xs-12">
+          <h1 style="text-align:center"><b>Revant Soni</b></h1>
+          <p style="text-align:right">-By <a href="https://www.facebook.com/anirban261"><b>Anirban Mukhopadhyay</b></a> and <a href="https://www.facebook.com/singlakdeepak"><b>Deepak Singla</b></a>.</p>
+        </div>
+        <!--==<div class="col-sm-6">
+          <ul class="breadcrumb pull-right">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Events</a></li>
+            <li class="active">Freshers' Night</li>
+          </ul>
+        </div>-->
+      </div>
+    </div>
+  </section><!--/#title-->
+
+  <section id="career" class="container">
+    <div class="container">
+      <div class="row">
+    <div class="col-sm-6" class="col-md-6" class="col-xs-6" class="col-lg-6">
+      <p style="font-size:20px;font-family:Berlin Sans FB;color:#000;">As a part of the ongoing interview series, the EES presents you an interview of <b>Revant Soni</b>, a 2015 EE graduate. He currently works at ITC Limited, where he had interned and received a PPO. Apart from being the NSS General Secretary, he was also involved in a lot of other activities. Read on to know more about his life at IITD.</p>
+    </div>
+    <div class="col-sm-6" class="col-md-6" class="col-xs-6" class="col-lg-6">
+      <img src="images/revantsoni/12027627_825570250893631_420243148323079397_n.jpg" class="img-responsivepic" style="position:relative;top:-15px;" alt="Image Of Revant Soni" height="180px" width="180px">
+    </div>
+  </div>
+</div>
+    <div style="color: #000;">
+    <p style="font-size:20px;font-family: Berlin Sans FB;color: #000">1. What were your most memorable moments at IIT? Could you describe any moments when you felt low at IIT and what you did to get back to normal?</p>
+<p style="font-size:20px;font-family:Berlin Sans FB;">There were quite a few such moments.</span></p>
+<span style="color: #000000;font-size:25px;font-family:Berlin Sans FB;">Few Highs:</span><br />
+<span style="color: #222;font-family:Berlin Sans FB;font-size:20px;">Getting to the semifinals of the Freshers’ Robotics competition.</span><br />
+<span style="color: #222;font-family:Berlin Sans FB;font-size:20px;">Elocution at the Dogra stage for Kavyalaya in Literati.</span><br />
+<span style="color: #222;font-family:Berlin Sans FB;font-size:20px;">Launching an e-zine “Yuva” in my first year itself, taking the Director’s interview in the process.</span><br />
+<span style="color: #222;font-family:Berlin Sans FB;font-size:20px;">Almost all the events conducted during my 3 years in NSS have been very memorable and close to heart.</span><br />
+<span style="color: #000000;font-size:25px;font-family:Berlin Sans FB;">Low moments:</span><br />
+<span style="color: #222;font-family:Berlin Sans FB;font-size:20px;">Juggling between multiple positions of responsibility and other commitments, I started feeling burned out during my second year. Finally cutting down on the number of activities I could handle by a good amount made me able to sustain the things I really loved most.</span><br />
+<span style="color: #222;font-family:Berlin Sans FB;font-size:20px;">Quitting of some individuals from the NSS team in my final year as the General Secretary made me really sad. Concentrating on keeping the NSS activities going as well as possible to help interested students and beneficiaries helped me fulfil the responsibility I had undertaken.</span></p><br />
+<p style="font-size:25px;font-family:Berlin Sans FB;font-size:20px;">2.Do you have any regrets from your time in IIT?</b></p>
+<p style="font-size:20px;font-family:Berlin Sans FB;font-size:20px;">I maybe got too engrossed with my responsibilities for a large part at IIT – would have loved to take a bit extra time off and spend with friends.<br />
+I would have loved if I were able to spend time with a project to get it implemented at the ground level in order to effect real change.</p><br />
+
+<p style="font-size:25px;font-family:Berlin Sans FB;">3. How was your overall experience at IIT?</p>
+<p style="font-size:20px;font-family:Berlin Sans FB;">I met some of the most exceptional people, and keep sharing my learnings with them.<br />
+I gained a platform to hone my skills across different platforms I loved and take up managerial positions with room to fail and learn as much as possible.</p><br />
+<p style="font-size:25px;font-family:Berlin Sans FB;">4. What changes did you notice in your personality before and after IIT?</b></p>
+<p style="font-size:20px;font-family:Berlin Sans FB;">I was an introvert before coming to IIT; now it I have transformed by a great extent and the environment has given me a lot of confidence while interacting with people.<br />
+I can convey my thoughts a lot more clearly, and understand the future implications of any decision.</p><br />
+<p style="font-size:25px;font-family:Berlin Sans FB;">5. What things did you learn in IIT that helped a lot in the years after graduating?</b></p>
+<p style="font-size:20px;font-family:Berlin Sans FB;"><span style="color: #222;">The ability to present my ideas clearly to people.</span><br />
+<span style="color: #222;font-family:Berlin Sans FB;">Stretching yourself to work long hours continuously whenever needed.</span></p><br />
+<p style="font-size:25px;font-family:Berlin Sans FB;"><span style="color: #000000;">6. How has your life changed after graduating from IIT and how do you feel about this change?</span></p>
+<p style="font-size:20px;font-family:Berlin Sans FB;"><span style="color: #222;">There are no long holidays and a 6-day working week – challenging to get used to.</span><br />
+<span style="color: #222;font-family:Berlin Sans FB;">For the first time in life you get money, or so to say start worrying about money which just came from your parents erstwhile – it makes you feel important and responsible.</b></span></p><br />
+<p style="font-size:25px;font-family:Berlin Sans FB;"><span style="color: #000000;">7.What words of advice would you give to your juniors- some things that they should do, some changes in the way of thinking,etc. ?</b></span></p>
+<p style="font-size:20px;font-family:Berlin Sans FB;"><span style="color: #222;">Explore:Do what you like, try what you would like to. Stay pumped up and explore as much as you can, the experience would help you in the long run.</span><br />
+<span style="color: #222;font-family:Berlin Sans FB;">Persevere:Give time to whatever you like, don’t do things as a mere formality. Giving time to anything makes you slowly like it, and the results will always show up soon enough!</span></p><br />
+<p style="font-size:25px;font-family:Berlin Sans FB;"><span style="color: #000000;"> 8.What are some things that you would advise juniors not to do?</span></p>
+<p style="font-size:20px;font-family:Berlin Sans FB;"><span style="color: #222;">Following your friends blindly:You are a unique individual and different from others, respect yourself.</span><br />
+<span style="color: #222;font-family:Berlin Sans FB;">Self-doubt:As Henry Ford said, &#8220;Whether you believe you can do a thing or not, you are right.&#8221; Believe in yourself and don’t lose heart.</b></span></p><br />
+<p style="font-size:25px;font-family:Berlin Sans FB;"><span style="color: #000000;">9. What activities were you involved in and how have they helped you?</b></span></p>
+<p style="font-size:20px;font-family:Berlin Sans FB;"><span style="color: #222;">NSS:Helped me become more humble and understand the importance of just sharing a smile with someone. It taught me how to manage events, lead people and of course understand their needs.</b></span><br />
+<span style="color: #222;font-family:Berlin Sans FB;">AINA:Helped me discover, debate and think about ways in which we can contribute to nation building.</b></span><br />
+<span style="color: #222;font-family:Berlin Sans FB;">BSP:Helped me pursue my love for writing by getting published and taking  that to the next level by encouraging others to write.</b></span></p><br />
+<p style="font-size:25px;font-family:Berlin Sans FB;"><span style="color: #000000;">10. What projects did you work on during IIT?</b></span></p>
+<p style="font-size:20px;font-family:Berlin Sans FB;"><span style="color: #222;">Model Reduction of complex networks using Balanced Truncation, with applications to Biological systems.</span><br />
+<span style="color: #222;font-family:Berlin Sans FB;">Estimation of the states of a control system using Kalman Filtering.</span><br />
+<span style="color: #222;font-family:Berlin Sans FB;">Mapping developmental problems to relevant stakeholders in Urban Slums, through an IVR based system taking Munirka drinking water and sanitation problem as a case.</span><br />
+<span style="color: #222;font-family:Berlin Sans FB;">Designing a tool to assess the root cause of academic dishonesty in Indian school education system – made a simple turn-based game to understand how innate desire for cheating varies with change in response of various stakeholders involved.</span></p><br />
+<span style="color: #222;font-family:Berlin Sans FB;"></span></p>
+<div class="row">
+<div class="container">
+<div class="col-sm-6 col-lg-6 col-md-6 col-xs-12">
+<p style="font-size:25px;font-family:Berlin Sans FB;"><span style="color: #000000;">11. a. What are you working/ researching on? Could you provide us a brief description?</b></span></p>
+<p style="font-size:20px;font-family:Berlin Sans FB;"><span style="color: #222;">I am presently working with ITC as an Assistant under training. As the name implies, the aim presently is to understand the various aspects of the supply chain involved in making any product, particularly production at the factory level. In the near future, I would be required to handle a managerial position within the factory or in the supply chain wherein I would sustain and improve processes in the firm.</span></p><br />
+</div>
+<div class="col-sm-6 col-lg-6 col-md-6 col-xs-12">
+<p style="font-size:25px;"><img alt="Team pic" class="img-responsive" src="images/revantsoni/a.jpg" style="height:300px;width:600px;" /></p><br />
+</div>
+</div>
+<p style="font-size:25px;font-family:Berlin Sans FB;"><span style="color: #000000;">b. What fascinates and excites you most about the sector you are currently working/researching in?</b></span></p>
+<p style="font-size:20px;font-family:Berlin Sans FB;"><span style="color: #000000;"><span style="color: #222;">The FMCG (Fast Moving Consumer Goods) sector wherein I am working requires a business to be able to continually manufacture and supply quality products to the consumer in minimum time and minimum possible price, with changing consumer mindsets and the sheer size of the country posing even bigger challenges. I feel my present job is a great way for me to understand synergies between machines used to manufacture a product and men who make and move it, and how to best drive this synergy in the interest of a business.</span></p><br />
+<p style="font-size:25px;font-family:Berlin Sans FB;"><span style="color: #000000;">12. Have you found what you love (your passion)? Many people face a dilemma over “what is that they would love to do in life”. Anything on this issue?</span></p>
+<p style="font-size:20px;font-family:Berlin Sans FB;"><span style="color: #222;">IIT has helped me discover my passion for social service by helping me work with bodies like AINA and NSS, and it is something I would be definitely be pursuing in the long term.</b></span></p><br />
+ </div>
+
+  </section>
+  <!-- /Career -->
+
+ <footer id="footer" class="midnight-blue">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6" "col-lg-6" "col-xs-6" "col-md-6">
+                    Copyright &copy; 2016 Electrical Engineering Society, IIT Delhi. All rights reserved.
+                </div>
+                <div class="col-sm-6" "col-lg-6" "col-xs-6" "col-md-6">
+                    <i>Website created by - <b><a href="https://www.facebook.com/profile.php?id=100007104154119&fref=ts">Vaibhav Srivastava</a> and <a href="https://www.facebook.com/manish.stud?fref=ts">Manish Singh</a></b></i> 
+                    <!--<ul class="pull-right">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Faq</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a id="gototop" class="gototop" href="#"><i class="icon-chevron-up"></i></a></li><!--#gototop--
+                    </ul>-->
+                </div>
+            </div>
+        </div>
+    </footer><!--/#footer-->
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.prettyPhoto.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

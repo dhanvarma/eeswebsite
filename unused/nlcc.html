@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>
+    .sidebar-nav {
+    padding: 9px 0;	
+}
+
+.dropdown-menu .sub-menu {
+    left: 100%;
+    position: absolute;
+    top: 4px;
+	list-style-type:none;
+    visibility: hidden;
+    margin-top: -1px;
+	background-color:#2c3e50;
+	min-height:177px;
+	border-radius:3px; 	
+	}
+.dropdown-menu .sub-menu li:hover{
+background-color:rgba(0,0,0,0.3);
+}
+.dropdown-menu .sub-menu li:hover a{
+color:#fff;
+}
+.dropdown-menu li:hover .sub-menu {
+    visibility: visible;
+}
+@media (min-width: 768px) {.dropdown-menu li:hover .sub-menu {visibility: visible;}}
+@media (min-width: 768px) {.dropdown:hover .dropdown-menu {display: block;}}
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.nav-tabs .dropdown-menu, .nav-pills .dropdown-menu, .navbar .dropdown-menu {
+    margin-top: 0;
+}
+
+.navbar .sub-menu:before {
+    border-bottom: 7px solid transparent;
+    border-left: none;
+    border-right: 7px solid rgba(0, 0, 0, 0.2);
+    border-top: 7px solid transparent;
+    left: -7px;
+    top: 10px;
+}
+.navbar .sub-menu:after {
+    border-top: 6px solid transparent;
+    border-left: none;
+    border-right: 6px solid #fff;
+    border-bottom: 6px solid transparent;
+    left: 10px;
+    top: 11px;
+    left: -6px;
+}
+</style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <title>NLCC | Electrical Engineering Society</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/font-awesome.min.css" rel="stylesheet">
+  <link href="css/prettyPhoto.css" rel="stylesheet">
+  <link href="css/animate.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">  
+  <link rel="shortcut icon" href="images/ico/favicon.ico">
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/favicon.ico">
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/favicon.ico">
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/favicon.ico">
+  <link rel="apple-touch-icon-precomposed" href="images/ico/favicon.ico"> 
+</head><!--/head-->
+<body  style="background:linear-gradient(to right,#ffffff, #f2f2f2, #e6e6e6, #f2f2f2, #ffffff);">
+  <header class="navbar navbar-inverse navbar-fixed-top wet-asphalt" role="banner">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index.html"><img src="images\Newlogo1.png" alt="EES IITD logo" style="height:60px;width:150px;padding:0px;" /></a>
+      </div>
+            <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="index.html">Home</a></li>
+                <li class="dropdown">
+                        <a href="events.html">Events<i class="caret"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Lifestyle</a>
+							<ul class="sub-menu">
+                            <li><a href="freshersnight.html">Freshers' Night</a></html>
+							<li><a href="fresherswelcome.html">Freshers' Welcome</a></li>
+							<li><a href="internkefundae.html">Intern ke Fundae</a></li>
+							</ul>
+							</li>
+							<li><a href="#">Competitive</a>
+							<ul class="sub-menu">
+							<li><a href="28nov.html">Waste Disposal System</a></li>
+							<li><a href="#">Analog Circuits</a></li>
+                        </ul>
+                    </li>
+					<li><a href="#">Lecture</a>
+					<ul class="sub-menu">
+					<li><a href="imageprocessing.html">Image Processing</a></li>
+					<li><a href="analogcircuits.html">Analog Circuits</a></li>
+					<li><a href="23sep.html">Synapse</a></li>
+					<li><a href="#">Data Analytics and Machine Learning</a></li>
+					</ul>
+					</li>
+					<li><a href="#">Workshop</a>
+					<ul class="sub-menu">
+					<li><a href="microcontroller.html">Microcontroller</a></li>
+					<li><a href="#">Digital Electronics</a></li>
+					</ul>
+					</li>
+					<li><a href="#">Sports</a>
+					<ul class="sub-menu">
+					<li><a href="fifalangaming.html">Fifa LAN Gaming</a></li>
+					<li><a href="langaming.html">CS LAN Gaming</a></li>
+					<li><a href="#">Tennis Ball Cricket</a></li>
+					</ul>
+					</li>
+					</ul>
+					</li>
+                    <li class="dropdown">
+                        <a href="interviews.html">Interview Series<i class="caret"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="nupurkala.html">Nupur Kala</a></li>
+                            <li><a href="revantsoni.html">Revant Soni</a></li>
+                            <li><a href="shashankkedia.html">Shashank Kedia</a></li>
+							<li><a href="ayushgoel.html">Ayush Goel</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="contactus.html">Contact Us<i class="caret"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="presentteam.html">Current Team</a></li>
+                            <li><a href="pastteam.html">Team 2014-15</a></li>
+                        </ul>
+                    </li>
+                    <li class="active"><a href="nlcc.html">NLCC</a></li> 
+                    <li><a href="gallery.html">Gallery</a></li>
+					<li><a href="resources.html">Resources</a></li>
+                </ul>
+            </div>
+    </div>
+  </header><!--/header-->
+  <section id="title" class="emerald1">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12" "col-xs-12" "col-md-12" "col-lg-12">
+          <h2>Electrical Engineering Society</h2>&nbsp&nbsp&nbsp
+          <h4>IIT Delhi</h4>
+        </div>
+      </div>
+    </div>
+  </section><!--/#title-->
+
+  <section id="title" class="emerald" style="background:linear-gradient(to right,#ffffff, #f2f2f2, #e6e6e6, #f2f2f2, #ffffff);padding:00px;border-bottom:1px solid #a6a6a6;">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12" "col-xs-12" "col-md-6" "col-lg-12">
+          <h1 style="text-align:center"><b>NLCC</h1>
+          <h3 style="text-align:center;font-family:forte;">National Level Coding Contest 2016</b></h3>
+        </div>
+        <!--==<div class="col-sm-6">
+          <ul class="breadcrumb pull-right">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Events</a></li>
+            <li class="active">Freshers' Night</li>
+          </ul>
+        </div>-->
+      </div>
+    </div>
+  </section><!--/#title-->
+   <section id="career" class="container">
+    <p style="font-size:20px;font-family:Berlin Sans FB;color:#243342;">Electrical Engineering Society, IIT Delhi in association with VBM Technologies, Noida is proud to announce NLCC-2016 (National Level Coding Contest). All the preliminary rounds will be held at various esteemed Engineering Institutes across INDIA in present academic year and the Grand Finale will be organized at IIT Delhi.</p>
+    <div class="row">
+	<div class="col-sm-12 col-md-12 col-lg-12 col-xs-12">
+	<img src="images\nlcc\nlccimg.png" class="img-responsive" style="position:relative;width:700px;height:350px;margin:auto;" alt="NLCC Image"></img>
+	</div>
+	</div>
+    <p style="font-size: 20px; color:#000000"><b>Highlights of Final Round at IIT-Delhi:</b></p>
+<ul style="font-size: 15px;color:#243342">
+<li>Winners of all Zonal Centers will be competing against each other at NLCC-2016 in March/April 2016 at IIT Delhi.</li>
+<li>Winners of the Final Round will win The NLCC title and will be awarded and honored by EES IIT Delhi.</li>
+<li>A certificate of Excellence will also be awarded to the winners from EES IIT Delhi.</li>
+<li>Free STP (Summer Training Program) for the runner ups at VBM Technologies, Campus.</li>
+<li>Chance to work as Intern with VBM Technologies Pvt. Ltd. on Real Projects of various MNC’s.</li>
+<li>Prizes worth <strong>Rupees 1,00,000</strong> to be won including <strong>Laptops</strong> and <strong>Tablets</strong>, to be given to the winner as well runner ups.</li>
+</ul>
+<p style="font-size: 20px;color:#000000"><b>Finale:</b> <span style="color: #243342;font-size:15px;"><strong>March/April 2016</strong></span><br />
+<b>Venue:</b> <span style="font-size:15px;"><a title="IIT Delhi" href="http://www.iitd.ac.in/" style="color:blue;" target="_blank"><b>IIT Delhi</b></a></span></p>
+<p>&nbsp;<br />
+<strong><em style="font-size: 20px; color: black;">ABOUT VBM</em></strong></p>
+<p style="font-size: 15px;color:#243342" align="justify">VBM Technologies is an initiative to enhance practical knowledge among the Students. It is India&#8217;s leading Linux, Ethical Hacking, and Networking Training Provider. VBM Technologies is &#8216;The First Choice&#8217; for the students who want to get top quality education in the field of IT industry which is being led by an extremely dedicated and professional team of highly experienced certified Engineers in their respective domains. Training is still a main module of the overall company as we have established ourselves in the project outsourcing domain as well. VBM Technologies is working towards the vision to develop India as a Secured Country with an outreach to over ten thousand students and over a hundred major colleges, VBM Technologies is a well-known and trusted brand in the education and information security business.</p>
+<p>&nbsp;</p>
+<p style="font-size: 18px;color:black;"><b>Website:</b> <a title="NLSC-2015" href="http://www.nlccindia.com" target="_blank" style="color:blue;font-size:15px;">www.nlccindia.com</a> || <a title="VBM Technologies" href="http://www.vbmtechnologies.com" target="_blank" style="color:blue;font-size:15px;">www.vbmtechnologies.com</a><br />
+<b>Facebook:</b> <a href="http://www.facebook.com/nlscindia" target="_blank" style="color:blue;font-size:15px;">www.facebook.com/nlscindia</a> || <a href="http://www.facebook.com/vbmtechnologies" target="_blank" style="color:blue;font-size:15px;">www.facebook.com/vbmtechnologies</a><br />
+<b>Contact:</b> <span style="font-size:15px;color:#243342;">0120-4322521, +91-9654268859.</span></p>
+                      </div><!--end entry-->
+              </div><!--end content-->
+<div id="sidebar">
+  </section>
+<footer id="footer" class="midnight-blue">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6" "col-md-6" "col-xs-6" "col-lg-6">
+                    Copyright &copy; 2016 Electrical Engineering Society, IIT Delhi. All rights reserved.
+                </div>
+                <div class="col-sm-6" "col-md-6" "col-xs-6" "col-lg-6">
+                    <i>Website created by - <b>Vaibhav Srivastava and Manish Singh</b></i> 
+                    <!--<ul class="pull-right">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Faq</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a id="gototop" class="gototop" href="#"><i class="icon-chevron-up"></i></a></li><!--#gototop--
+                    </ul>-->
+                </div>
+            </div>
+        </div>
+    </footer><!--/#footer-->
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.prettyPhoto.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
