@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>
+    .sidebar-nav {
+    padding: 9px 0;	
+}
+
+.dropdown-menu .sub-menu {
+    left: 100%;
+    position: absolute;
+    top: 4px;
+	list-style-type:none;
+    visibility: hidden;
+    margin-top: -1px;
+	background-color:#2c3e50;
+	min-height:177px;
+	border-radius:3px; 	
+	}
+.dropdown-menu .sub-menu li:hover{
+background-color:rgba(0,0,0,0.3);
+}
+.dropdown-menu .sub-menu li:hover a{
+color:#fff;
+}
+.dropdown-menu li:hover .sub-menu {
+    visibility: visible;
+}
+@media (min-width: 768px) {.dropdown-menu li:hover .sub-menu {visibility: visible;}}
+@media (min-width: 768px) {.dropdown:hover .dropdown-menu {display: block;}}
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.nav-tabs .dropdown-menu, .nav-pills .dropdown-menu, .navbar .dropdown-menu {
+    margin-top: 0;
+}
+
+.navbar .sub-menu:before {
+    border-bottom: 7px solid transparent;
+    border-left: none;
+    border-right: 7px solid rgba(0, 0, 0, 0.2);
+    border-top: 7px solid transparent;
+    left: -7px;
+    top: 10px;
+}
+.navbar .sub-menu:after {
+    border-top: 6px solid transparent;
+    border-left: none;
+    border-right: 6px solid #fff;
+    border-bottom: 6px solid transparent;
+    left: 10px;
+    top: 11px;
+    left: -6px;
+}
+</style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <title>Avadh Singhal | Electrical Engineering Society</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/font-awesome.min.css" rel="stylesheet">
+  <link href="css/prettyPhoto.css" rel="stylesheet">
+  <link href="css/animate.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">  
+  <link rel="shortcut icon" href="images/ico/favicon.ico">
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/favicon.ico">
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/favicon.ico">
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/favicon.ico">
+  <link rel="apple-touch-icon-precomposed" href="images/ico/favicon.ico"> 
+</head><!--/head-->
+<body  style="background:linear-gradient(to right,#ffffff, #f2f2f2, #e6e6e6, #f2f2f2, #ffffff);">
+ <header class="navbar navbar-inverse navbar-fixed-top wet-asphalt" role="banner" style="height:auto;">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index.html"><img src="images\Newlogo1.png" alt="EES IITD logo" style="height:60px;width:150px;padding:0px;" /></a>
+      </div>
+            <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="http://vortex-iitd.com/">Vortex</a></li>
+                <li class="dropdown">
+                        <a href="events.html">Events<i class="caret"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Lifestyle</a>
+							<ul class="sub-menu">
+                            <li><a href="freshersnight.html">Freshers' Night</a></html>
+							<li><a href="fresherswelcome.html">Freshers' Welcome</a></li>
+							<li><a href="internkefundae.html">Intern ke Fundae</a></li>
+							</ul>
+							</li>
+							<li><a href="#">Competitive</a>
+							<ul class="sub-menu">
+							<li><a href="28nov.html">Waste Disposal System</a></li>
+							<li><a href="analogcircuits.html">Analog Circuits</a></li>
+                        </ul>
+                    </li>
+					<li><a href="#">Lecture</a>
+					<ul class="sub-menu">
+					<li><a href="imageprocessing.html">Image Processing</a></li>
+					<li><a href="analogcircuits.html">Analog Circuits</a></li>
+					<li><a href="23sep.html">Synapse</a></li>
+					
+					<li><a href="#">Data Analytics and Machine Learning</a></li>
+					</ul>
+					</li>
+					<li><a href="#">Workshop</a>
+					<ul class="sub-menu">
+					<li><a href="microcontroller.html">Microcontroller</a></li>
+					<li><a href="digitalworkshopimages.html">Digital Electronics</a></li>
+					</ul>
+					</li>
+					<li><a href="#">Sports</a>
+					<ul class="sub-menu">
+					<li><a href="fifalangaming.html">Fifa LAN Gaming</a></li>
+					<li><a href="langaming.html">CS LAN Gaming</a></li>
+					<li><a href="#">Tennis Ball Cricket</a></li>
+					</ul>
+					</li>
+					</ul>
+					</li>
+                    <li class="dropdown">
+                        <a href="#">Interview Series<i class="caret"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="interviews.html">Interview Series 2015-16</a></li>
+                            <li><a href="interviews1617.html">Interview Series 2016-17</a></li>
+                        </ul>
+                    </li>
+
+                    
+                    <li class="dropdown">
+                        <a href="contactus.html">Contact Us<i class="caret"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="presentteam.html">Current Team</a></li>
+                            <li><a href="pastteam1516.html">Team 2015-16</a></li>
+                            <li><a href="pastteam.html">Team 2014-15</a></li>
+                            
+                        </ul>
+                    </li>
+                    <li><a href="gallery.html">Gallery</a></li>
+					<li><a href="resources.html">Resources</a></li>
+                </ul>
+            </div>
+    </div>
+  </header><!--/header-->
+    <section id="title" class="emerald1">
+    <div class="container">
+          <h2>Electrical Engineering Society</h2>&nbsp&nbsp&nbsp
+          <h4>IIT Delhi</h4>
+        </div>
+        </div>
+    </section>
+
+
+  <section id="title" class="emerald" style="background:linear-gradient(to right,#ffffff, #f2f2f2, #e6e6e6, #f2f2f2, #ffffff);padding:00px;border-bottom:1px solid #a6a6a6;">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12" "col-md-6" "col-lg-12" "col-xs-12">
+          <h1 style="text-align:center"><b>Avadh Singhal</b></h1>
+          <p style="text-align:right">-By <a href="https://www.facebook.com/krunal.shah.01"><b>Krunal Shah</b></a> and <a href="https://www.facebook.com/ashraygupta97"><b>Ashray Gupta</b></a>.</p>
+        </div>
+      </div>
+    </div>
+  </section><!--/#title-->
+  <section id="index" class="container">
+    <div class="container">
+      <div class="row">
+    <div class="col-sm-6" class="col-md-6" class="col-xs-6" class="col-lg-6">
+      <p style="font-size:20px;font-family:Berlin Sans FB;color:#243342;">We bring to you the interview of one of the most endearing personalities at IIT Delhi,<b> Avadh Singhal </b>. He was the BRCA General Secretary and during his term, BRCA touched new heights. Also, he was a member of Dramatics club earlier and a journalist at BSP. He did two internships here, one in ST Microelectronics and the other one in Texas Instruments. He talked to us about his IIT journey and shared some memorable experiences too.
+Do have a look, as this will surely motivate you to achieve a lot here.
+</p>
+    </div>
+    <div class="col-sm-1" class="col-md-1" class="col-xs-0" class="col-lg-2">
+     
+    </div>
+    <div class="col-sm-4" class="col-md-6" class="col-xs-6" class="col-lg-6">
+      <img src="images/avadhsinghal/avadh.jpg" class="img-responsivepic" style="position:relative;top:10px;" alt="Image Of Avadh Singhal" >
+    </div>
+  </div>
+</div>
+    <div style="color: #222;">
+    <p style="font-size:25px;font-family: Berlin Sans FB;;">1. What were your most memorable moments at IIT? Could you describe any moments when you felt low at IIT and what you did to get back to normal?</p>
+
+<p style="font-size:20px;font-family: Berlin Sans FB;">The moments that were most memorable for me are those when I worked in teams, interacted and shared ideas with people from all across the country. There is no specific moment as such which I’ll cherish the most.<br />
+After my department change I got a little distracted or got involved in many other activities and secured poor SGPA which was unusual for me considering my previous record. I talked to my parents and some seniors and realized that it had happened because I could not manage my time properly. So from the next semester, I started doing specific activities with focused attention instead of general activities.<br /></p><br />
+
+<p style="font-size:25px;font-family: Berlin Sans FB;color: #000">2.Do you have any regrets from your time in IIT?</p>
+
+<p style="font-size:20px;font-family: Berlin Sans FB;color: #222;">I personally think I could have given more attention to academics. But having said this, I don’t really regret my participation in extracurricular activities.<br /></p><br />
+
+<p style="font-size:25px;font-family: Berlin Sans FB;color: #000">3. What changes did you notice in your personality before and after IIT? How have your extracurricular activities and internships been instrumental in causing this change?</p>
+
+<p style="font-size:20px;font-family: Berlin Sans FB;">I was not very expressive of my ideas before joining IIT. After joining IIT and through my experiences here I have gained confidence and have become expressive. <br />
+I was involved in Dramatics club and was a journalist in BSP. These experiences helped in shaping my personality and helped me in improving my people skills. <br />
+My both internships were in core sector. One in ST Microelectronics and the other one in Texas Instruments. These internships helped me in applying my knowledge that I have gained here at IIT and the corporate environment improved my presentation skills (not just powerpoint skills :P).
+<br /></p><br />
+
+<p style="font-size:25px;font-family: Berlin Sans FB;color: #000">4.  What words of advice would you give to your juniors- some things that they should do, some changes in the way of thinking, etc. Any specific advice for students of any particular year?</p>
+
+<p style="font-size:20px;font-family: Berlin Sans FB;">I really don’t believe in Fundas as some people might call it. I think it is because of this strong influence of seniors on juniors that many students end up making the same choices that their seniors made. I would advise them to explore and make their own decisions rather than following their seniors blindly. <br />
+Now that you have asked, I’ll still share some views (follow at your own risk). I recall a friend of mine telling me that if we don’t work sincerely here in college then we are basically making all the efforts that we had put in to come this place worthless. I am not asking anyone to just focus on academics but would advise them to never stop learning.
+<br /></p><br />
+
+<p style="font-size:25px;font-family: Berlin Sans FB;color: #000">5.   What are some things that you would advise juniors not to do?</p>
+
+<p style="font-size:20px;font-family: Berlin Sans FB;">I have seen people getting distracted because of smoking/drinking and other substance abuse issues. This distraction should be avoided as much as one can.<br /></p><br />
+
+<div class="row">
+<div class="col-sm-6 col-lg-6 col-xs-12 col-md-6">
+<p style="font-size:25px;font-family: Berlin Sans FB;color: #000">6.  What projects did you work on during IIT? Any favorite research stream? Did you find Electrical Engineering branch exciting? Any specific advice for your juniors in this branch?</b></p>
+
+<p style="font-size:20px;font-family: Berlin Sans FB;">I worked on memory cells during my SURA and genetic optimization algorithms during my BTP. I don’t think I was much of a research kind of person.  But these projects always taught me much more than any course. <br />
+Though I have stated that I didn’t like the research. But if I compare electrical engineering with the other alternatives, it is more contemporary and was relatable for me. No specific advice to juniors.
+<br /></p><br />
+</div>
+<div class="col-sm-6 col-lg-6 col-xs-12 col-md-6">
+<img alt="Team pic" class="img-responsive" src="images/avadhsinghal/group.jpg" style="height:300px;width:600px;" /><br />
+</div>
+</div>
+<p style="font-size:25px;font-family: Berlin Sans FB;color: #000">7.  Have you been to any other IIT in these 4 years? How was it different from IITD? Can we bring that change in IITD if the change is for the better?</p>
+<p style="font-size:20px;font-family: Berlin Sans FB;">No, I have not been to any other IITs. <br /></p><br />
+
+ </div>
+
+  </section>
+  <!-- /Career -->
+
+ <footer id="footer" class="midnight-blue">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6" "col-lg-6" "col-xs-6" "col-md-6">
+                    Copyright &copy; 2016 Electrical Engineering Society, IIT Delhi. All rights reserved.
+                </div>
+                <div class="col-sm-6" "col-lg-6" "col-xs-6" "col-md-6">
+                    <i>Website created by - <b><a href="https://www.facebook.com/profile.php?id=100007104154119&fref=ts">Vaibhav Srivastava</a> and <a href="https://www.facebook.com/manish.stud?fref=ts">Manish Singh<a></b></i> 
+                    <!--<ul class="pull-right">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Faq</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a id="gototop" class="gototop" href="#"><i class="icon-chevron-up"></i></a></li><!--#gototop--
+                    </ul>-->
+                </div>
+            </div>
+        </div>
+    </footer><!--/#footer-->
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.prettyPhoto.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
