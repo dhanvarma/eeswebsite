@@ -1,0 +1,769 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>
+    .sidebar-nav {
+    padding: 9px 0;	
+}
+
+.dropdown-menu .sub-menu {
+    left: 100%;
+    position: absolute;
+    top: 4px;
+	list-style-type:none;
+    visibility: hidden;
+    margin-top: -1px;
+	background-color:#2c3e50;
+	min-height:177px;
+	border-radius:3px;
+	}
+.dropdown-menu .sub-menu li:hover{
+background-color:rgba(0,0,0,0.3);
+}
+.dropdown-menu .sub-menu li:hover a{
+color:#fff;
+}
+.dropdown-menu li:hover .sub-menu {
+    visibility: visible;
+}
+@media (min-width: 768px) {.dropdown-menu li:hover .sub-menu {visibility: visible;}}
+@media (min-width: 768px) {.dropdown:hover .dropdown-menu {display: block;}}
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.nav-tabs .dropdown-menu, .nav-pills .dropdown-menu, .navbar .dropdown-menu {
+    margin-top: 0;
+}
+
+.navbar .sub-menu:before {
+    border-bottom: 7px solid transparent;
+    border-left: none;
+    border-right: 7px solid rgba(0, 0, 0, 0.2);
+    border-top: 7px solid transparent;
+    left: -7px;
+    top: 10px;
+}
+.navbar .sub-menu:after {
+    border-top: 6px solid transparent;
+    border-left: none;
+    border-right: 6px solid #fff;
+    border-bottom: 6px solid transparent;
+    left: 10px;
+    top: 11px;
+    left: -6px;
+}
+</style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <title>Question Papers | Electrical Engineering Society</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/font-awesome.min.css" rel="stylesheet">
+  <link href="css/prettyPhoto.css" rel="stylesheet">
+  <link href="css/animate.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">  
+  <link rel="shortcut icon" href="images/ico/favicon.ico">
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/favicon.ico">
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/favicon.ico">
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/favicon.ico">
+  <link rel="apple-touch-icon-precomposed" href="images/ico/favicon.ico">
+</head><!--/head-->
+<body  style="background:linear-gradient(to right,#ffffff, #f2f2f2, #e6e6e6, #f2f2f2, #ffffff);">
+ <header class="navbar navbar-inverse navbar-fixed-top wet-asphalt" role="banner" style="height:auto;">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index.html"><img src="images\Newlogo1.png" alt="EES IITD logo" style="height:60px;width:150px;padding:0px;" /></a>
+      </div>
+            <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="http://vortex-iitd.com/">Vortex</a></li>
+                <li class="dropdown">
+                        <a href="events.html">Events<i class="caret"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Lifestyle</a>
+							<ul class="sub-menu">
+                            <li><a href="freshersnight.html">Freshers' Night</a></html>
+							<li><a href="fresherswelcome.html">Freshers' Welcome</a></li>
+							<li><a href="internkefundae.html">Intern ke Fundae</a></li>
+							</ul>
+							</li>
+							<li><a href="#">Competitive</a>
+							<ul class="sub-menu">
+							<li><a href="28nov.html">Waste Disposal System</a></li>
+							<li><a href="analogcircuits.html">Analog Circuits</a></li>
+                        </ul>
+                    </li>
+					<li><a href="#">Lecture</a>
+					<ul class="sub-menu">
+					<li><a href="imageprocessing.html">Image Processing</a></li>
+					<li><a href="analogcircuits.html">Analog Circuits</a></li>
+					<li><a href="23sep.html">Synapse</a></li>
+					
+					<li><a href="#">Data Analytics and Machine Learning</a></li>
+					</ul>
+					</li>
+					<li><a href="#">Workshop</a>
+					<ul class="sub-menu">
+					<li><a href="microcontroller.html">Microcontroller</a></li>
+					<li><a href="digitalworkshopimages.html">Digital Electronics</a></li>
+					</ul>
+					</li>
+					<li><a href="#">Sports</a>
+					<ul class="sub-menu">
+					<li><a href="fifalangaming.html">Fifa LAN Gaming</a></li>
+					<li><a href="langaming.html">CS LAN Gaming</a></li>
+					<li><a href="#">Tennis Ball Cricket</a></li>
+					</ul>
+					</li>
+					</ul>
+					</li>
+                    <li class="dropdown">
+                        <a href="#">Interview Series<i class="caret"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="interviews.html">Interview Series 2015-16</a></li>
+                            <li><a href="interviews1617.html">Interview Series 2016-17</a></li>
+                        </ul>
+                    </li>
+
+                    
+                    <li class="dropdown">
+                        <a href="contactus.html">Contact Us<i class="caret"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="presentteam.html">Current Team</a></li>
+                            <li><a href="pastteam1516.html">Team 2015-16</a></li>
+                            <li><a href="pastteam.html">Team 2014-15</a></li>
+                            
+                        </ul>
+                    </li>
+                    <li><a href="gallery.html">Gallery</a></li>
+					<li class="active"><a href="resources.html">Resources</a></li>
+                </ul>
+            </div>
+    </div>
+  </header><!--/header-->
+    <section id="title" class="emerald1">
+    <div class="container">
+          <h2>Electrical Engineering Society</h2>&nbsp&nbsp&nbsp
+          <h4>IIT Delhi</h4>
+        </div>
+        </div>
+    </section>
+
+  <section id="title" class="emerald" style="background:linear-gradient(to right,#ffffff, #f2f2f2, #e6e6e6, #f2f2f2, #ffffff);padding:00px;border-bottom:1px solid #a6a6a6">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12" "col-xs-12" "col-md-6" "col-lg-12">
+          <h1 style="text-align:center;"><b>Past year Question Papers</b></h1>
+        </div>
+        <!--==<div class="col-sm-6">
+          <ul class="breadcrumb pull-right">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Events</a></li>
+            <li class="active">Freshers' Night</li>
+          </ul>
+        </div>-->
+      </div>
+    </div>
+  </section><!--/#title-->
+  <section id="career" class="container" style="color:black;">
+      <div class="container">
+          <div class="row">
+            <div class="panel-group" id="accordion">
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a style="color: black;" data-toggle="collapse" data-parent="#accordion" href="#collapse1">
+                    APL100</a>
+                  </h4>
+                </div>
+                <div id="collapse1" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    <ul style="list-style-type: none;">
+                      <li><a href="quesppr/APL100/Question Papers 6.14-15.pdf" target="_blank">Question Paper1</a></li>
+                      <li><a href="quesppr/APL100/Question Papers 7.4-5.pdf" target="_blank">Question Paper2</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a style="color: black;" data-toggle="collapse" data-parent="#accordion" href="#collapse2">
+                    CML100</a>
+                  </h4>
+                </div>
+                <div id="collapse2" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    <ul style="list-style-type: none;">
+                      <li><a href="quesppr/CML100/Question Papers 9.9-10.pdf" target="_blank">Question Paper1</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a style="color: black;" data-toggle="collapse" data-parent="#accordion" href="#collapse3">
+                    COL106</a>
+                  </h4>
+                </div>
+                <div id="collapse3" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    <ul style="list-style-type: none;">
+                      <li><a href="quesppr/COL106/Question Papers 2.13-16.pdf" target="_blank">Question Paper1</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a style="color: black;" data-toggle="collapse" data-parent="#accordion" href="#collapse4">
+                    ELL100</a>
+                  </h4>
+                </div>
+                <div id="collapse4" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    <ul style="list-style-type: none;">
+                      <li><a href="quesppr/ELL100/Question Papers 7.6.pdf" target="_blank">Question Paper1</a></li>
+                      <li><a href="quesppr/ELL100/Question Papers 7.7.pdf" target="_blank">Question Paper2</a></li>
+                      <li><a href="quesppr/ELL100/Question Papers 7.8.pdf" target="_blank">Question Paper3</a></li>
+                      <li><a href="quesppr/ELL100/Question Papers 7.9-10.pdf" target="_blank">Question Paper4</a></li>
+                      <li><a href="quesppr/ELL100/Question Papers 7.11-12.pdf" target="_blank">Question Paper5</a></li>
+                      <li><a href="quesppr/ELL100/Question Papers 7.13.pdf" target="_blank">Question Paper6</a></li>
+                      <li><a href="quesppr/ELL100/Question Papers 7.14-15.pdf" target="_blank">Question Paper7</a></li>
+                      <li><a href="quesppr/ELL100/Question Papers 8.2-3.pdf" target="_blank">Question Paper8</a></li>
+                      <li><a href="quesppr/ELL100/Question Papers 8.4-5.pdf" target="_blank">Question Paper9</a></li>
+                      <li><a href="quesppr/ELL100/Question Papers 8.13-15.pdf" target="_blank">Question Paper10</a></li>
+                      <li><a href="quesppr/ELL100/Question Papers 10.15-16.pdf" target="_blank">Question Paper11</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a style="color: black;" data-toggle="collapse" data-parent="#accordion" href="#collapse5">
+                    ELL201</a>
+                  </h4>
+                </div>
+                <div id="collapse5" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    <ul style="list-style-type: none;">
+                      <li><a href="quesppr/ELL201/Question Papers 2.7.pdf" target="_blank">Question Paper1</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a style="color: black;" data-toggle="collapse" data-parent="#accordion" href="#collapse6">
+                    ELL202</a>
+                  </h4>
+                </div>
+                <div id="collapse6" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    <ul style="list-style-type: none;">
+                      <li><a href="quesppr/ELL202/Question Papers 2.6.pdf" target="_blank">Question Paper1</a></li>
+                      <li><a href="quesppr/ELL202/Question Papers 3.1.pdf" target="_blank">Question Paper2</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a style="color: black;" data-toggle="collapse" data-parent="#accordion" href="#collapse7">
+                    ELL203</a>
+                  </h4>
+                </div>
+                <div id="collapse7" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    <ul style="list-style-type: none;">
+                      <li><a href="quesppr/ELL203/Question Papers 7.2-3.pdf" target="_blank">Question Paper1</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a style="color: black;" data-toggle="collapse" data-parent="#accordion" href="#collapse8">
+                    ELL204</a>
+                  </h4>
+                </div>
+                <div id="collapse8" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    <ul style="list-style-type: none;">
+                      <li><a href="quesppr/ELL204/Question Papers 10.2-3.pdf" target="_blank">Question Paper1</a></li>
+                      <li><a href="quesppr/ELL204/Question Papers 10.7-8.pdf" target="_blank">Question Paper2</a></li>
+                      <li><a href="quesppr/ELL204/Question Papers 10.13-14.pdf" target="_blank">Question Paper3</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a style="color: black;" data-toggle="collapse" data-parent="#accordion" href="#collapse9">
+                    ELL205</a>
+                  </h4>
+                </div>
+                <div id="collapse9" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    <ul style="list-style-type: none;">
+                      <li><a href="quesppr/ELL205/Question Papers 7.1.pdf" target="_blank">Question Paper1</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a style="color: black;" data-toggle="collapse" data-parent="#accordion" href="#collapse10">
+                    ELL212_207</a>
+                  </h4>
+                </div>
+                <div id="collapse10" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    <ul style="list-style-type: none;">
+                      <li><a href="quesppr/ELL212_207/Question Papers 5.9-10.pdf" target="_blank">Question Paper1</a></li>
+                      <li><a href="quesppr/ELL212_207/Question Papers 5.12-13.pdf" target="_blank">Question Paper2</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a style="color: black;" data-toggle="collapse" data-parent="#accordion" href="#collapse11">
+                    ELL301</a>
+                  </h4>
+                </div>
+                <div id="collapse11" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    <ul style="list-style-type: none;">
+                      <li><a href="quesppr/ELL301/Question Papers 10.1-2.pdf" target="_blank">Question Paper1</a></li>
+                      <li><a href="quesppr/ELL301/Question Papers 10.5-6.pdf" target="_blank">Question Paper2</a></li>
+                      <li><a href="quesppr/ELL301/Question Papers 10.9-10.pdf" target="_blank">Question Paper3</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a style="color: black;" data-toggle="collapse" data-parent="#accordion" href="#collapse12">
+                    ELL303</a>
+                  </h4>
+                </div>
+                <div id="collapse12" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    <ul style="list-style-type: none;">
+                      <li><a href="quesppr/ELL303/Question Papers 4.13.pdf" target="_blank">Question Paper1</a></li>
+                      <li><a href="quesppr/ELL303/Question Papers 4.14-15.pdf" target="_blank">Question Paper2</a></li>
+                      <li><a href="quesppr/ELL303/Question Papers 4.16.pdf" target="_blank">Question Paper3</a></li>
+                      <li><a href="quesppr/ELL303/Question Papers 6.12-13.pdf" target="_blank">Question Paper4</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a style="color: black;" data-toggle="collapse" data-parent="#accordion" href="#collapse13">
+                    ELL306</a>
+                  </h4>
+                </div>
+                <div id="collapse13" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    <ul style="list-style-type: none;">
+                      <li><a href="quesppr/ELL306/Question Papers 9.11-12.pdf" target="_blank">Question Paper1</a></li>
+                      <li><a href="quesppr/ELL306/Question Papers 11.1-6.pdf" target="_blank">Question Paper2</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a style="color: black;" data-toggle="collapse" data-parent="#accordion" href="#collapse14">
+                    ELL308</a>
+                  </h4>
+                </div>
+                <div id="collapse14" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    <ul style="list-style-type: none;">
+                      <li><a href="quesppr/ELL308/Question Papers 9.13-14.pdf" target="_blank">Question Paper1</a></li>
+                      <li><a href="quesppr/ELL308/Question Papers 9.15.pdf" target="_blank">Question Paper2</a></li>
+                      <li><a href="quesppr/ELL308/Question Papers 10.11-12.pdf" target="_blank">Question Paper3</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a style="color: black;" data-toggle="collapse" data-parent="#accordion" href="#collapse15">
+                    ELL316</a>
+                  </h4>
+                </div>
+                <div id="collapse15" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    <ul style="list-style-type: none;">
+                      <li><a href="quesppr/ELL316/Question Papers 5.2.pdf" target="_blank">Question Paper1</a></li>
+                      <li><a href="quesppr/ELL316/Question Papers 5.3.pdf" target="_blank">Question Paper2</a></li>
+                      <li><a href="quesppr/ELL316/Question Papers 9.5-6.pdf" target="_blank">Question Paper3</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div> 
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a style="color: black;" data-toggle="collapse" data-parent="#accordion" href="#collapse16">
+                    ELL319</a>
+                  </h4>
+                </div>
+                <div id="collapse16" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    <ul style="list-style-type: none;">
+                      <li><a href="quesppr/ELL319/Question Papers 3.12-15.pdf" target="_blank">Question Paper1</a></li>
+                      <li><a href="quesppr/ELL319/Question Papers 4.1-4.pdf" target="_blank">Question Paper2</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a style="color: black;" data-toggle="collapse" data-parent="#accordion" href="#collapse17">
+                    ELL358</a>
+                  </h4>
+                </div>
+                <div id="collapse17" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    <ul style="list-style-type: none;">
+                      <li><a href="quesppr/ELL358/Question Papers 4.7-8.pdf" target="_blank">Question Paper1</a></li>
+                      <li><a href="quesppr/ELL358/Question Papers 4.11-12.pdf" target="_blank">Question Paper2</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a style="color: black;" data-toggle="collapse" data-parent="#accordion" href="#collapse18">
+                    ELL602</a>
+                  </h4>
+                </div>
+                <div id="collapse18" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    <ul style="list-style-type: none;">
+                      <li><a href="quesppr/ELL602/Question Papers 4.9-10.pdf" target="_blank">Question Paper1</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a style="color: black;" data-toggle="collapse" data-parent="#accordion" href="#collapse19">
+                    ELL710</a>
+                  </h4>
+                </div>
+                <div id="collapse19" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    <ul style="list-style-type: none;">
+                      <li><a href="quesppr/ELL710/Question Papers 2.4.pdf" target="_blank">Question Paper1</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a style="color: black;" data-toggle="collapse" data-parent="#accordion" href="#collapse20">
+                    ELL711</a>
+                  </h4>
+                </div>
+                <div id="collapse20" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    <ul style="list-style-type: none;">
+                      <li><a href="quesppr/ELL711/Question Papers 3.2.pdf" target="_blank">Question Paper1</a></li>
+                      <li><a href="quesppr/ELL711/Question Papers 3.5-6.pdf" target="_blank">Question Paper2</a></li>
+                      <li><a href="quesppr/ELL711/Question Papers 3.7.pdf" target="_blank">Question Paper3</a></li>
+                      <li><a href="quesppr/ELL711/Question Papers 3.11.pdf" target="_blank">Question Paper4</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a style="color: black;" data-toggle="collapse" data-parent="#accordion" href="#collapse21">
+                    ELL715</a>
+                  </h4>
+                </div>
+                <div id="collapse21" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    <ul style="list-style-type: none;">
+                      <li><a href="quesppr/ELL715/Question Papers 5.4.pdf" target="_blank">Question Paper1</a></li>
+                      <li><a href="quesppr/ELL715/Question Papers 5.5.pdf" target="_blank">Question Paper2</a></li>
+                      <li><a href="quesppr/ELL715/Question Papers 9.7-8.pdf" target="_blank">Question Paper3</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a style="color: black;" data-toggle="collapse" data-parent="#accordion" href="#collapse22">
+                    ELL718</a>
+                  </h4>
+                </div>
+                <div id="collapse22" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    <ul style="list-style-type: none;">
+                      <li><a href="quesppr/ELL718/Question Papers 6.3-4.pdf" target="_blank">Question Paper1</a></li>
+                      <li><a href="quesppr/ELL718/Question Papers 6.5-6.pdf" target="_blank">Question Paper2</a></li>
+                      <li><a href="quesppr/ELL718/Question Papers 6.7-8.pdf" target="_blank">Question Paper3</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a style="color: black;" data-toggle="collapse" data-parent="#accordion" href="#collapse23">
+                    ELL784</a>
+                  </h4>
+                </div>
+                <div id="collapse23" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    <ul style="list-style-type: none;">
+                      <li><a href="quesppr/ELL784/Question Papers 3.3.pdf" target="_blank">Question Paper1</a></li>
+                      <li><a href="quesppr/ELL784/Question Papers 3.8-9.pdf" target="_blank">Question Paper2</a></li>
+                      <li><a href="quesppr/ELL784/Question Papers 3.10.pdf" target="_blank">Question Paper3</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a style="color: black;" data-toggle="collapse" data-parent="#accordion" href="#collapse24">
+                    ELL785</a>
+                  </h4>
+                </div>
+                <div id="collapse24" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    <ul style="list-style-type: none;">
+                      <li><a href="quesppr/ELL785/_pdf.pdf" target="_blank">Question Paper1</a></li>
+                      <li><a href="quesppr/ELL785/Question Papers 1 (copy).1-2.pdf" target="_blank">Question Paper2</a></li>
+                      <li><a href="quesppr/ELL785/Question Papers 1 (copy).3-8.pdf" target="_blank">Question Paper3</a></li>
+                      <li><a href="quesppr/ELL785/Question Papers 1 (copy).9-10.pdf" target="_blank">Question Paper4</a></li>
+                      <li><a href="quesppr/ELL785/Question Papers 1 (copy).11-12.pdf" target="_blank">Question Paper5</a></li>
+                      <li><a href="quesppr/ELL785/Question Papers 1 2.5.pdf" target="_blank">Question Paper6</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a style="color: black;" data-toggle="collapse" data-parent="#accordion" href="#collapse25">
+                    ELL786</a>
+                  </h4>
+                </div>
+                <div id="collapse25" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    <ul style="list-style-type: none;">
+                      <li><a href="quesppr/ELL786/Question Papers 5.11.pdf" target="_blank">Question Paper1</a></li>
+                      <li><a href="quesppr/ELL786/Question Papers 5.14-15.pdf" target="_blank">Question Paper2</a></li>
+                      <li><a href="quesppr/ELL786/Question Papers 6.11.pdf" target="_blank">Question Paper3</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a style="color: black;" data-toggle="collapse" data-parent="#accordion" href="#collapse26">
+                    ELL793</a>
+                  </h4>
+                </div>
+                <div id="collapse26" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    <ul style="list-style-type: none;">
+                      <li><a href="quesppr/ELL793/Question Papers 2.3.pdf" target="_blank">Question Paper1</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a style="color: black;" data-toggle="collapse" data-parent="#accordion" href="#collapse27">
+                    HUL291</a>
+                  </h4>
+                </div>
+                <div id="collapse27" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    <ul style="list-style-type: none;">
+                      <li><a href="quesppr/HUL291/Question Papers 2.8-9.pdf" target="_blank">Question Paper1</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a style="color: black;" data-toggle="collapse" data-parent="#accordion" href="#collapse28">
+                    MTL101</a>
+                  </h4>
+                </div>
+                <div id="collapse28" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    <ul style="list-style-type: none;">
+                      <li><a href="quesppr/MTL101/Question Papers 8.1.pdf" target="_blank">Question Paper1</a></li>
+                      <li><a href="quesppr/MTL101/Question Papers 9.1.pdf" target="_blank">Question Paper2</a></li>
+                      <li><a href="quesppr/MTL101/Question Papers 9.3.pdf" target="_blank">Question Paper3</a></li>
+                      <li><a href="quesppr/MTL101/Question Papers 11.7-8.pdf" target="_blank">Question Paper4</a></li>
+                      <li><a href="quesppr/MTL101/Question Papers 11.9.pdf" target="_blank">Question Paper5</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div> 
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a style="color: black;" data-toggle="collapse" data-parent="#accordion" href="#collapse29">
+                    MTL106</a>
+                  </h4>
+                </div>
+                <div id="collapse29" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    <ul style="list-style-type: none;">
+                      <li><a href="quesppr/MTL106/Question Papers 1 (copy).13-14.pdf" target="_blank">Question Paper1</a></li>
+                      <li><a href="quesppr/MTL106/Question Papers 1 (copy).15.pdf" target="_blank">Question Paper2</a></li>
+                      <li><a href="quesppr/MTL106/Question Papers 2.1.pdf" target="_blank">Question Paper3</a></li>
+                      <li><a href="quesppr/MTL106/Question Papers 2.2.pdf" target="_blank">Question Paper4</a></li>
+                      <li><a href="quesppr/MTL106/Question Papers 2.10.pdf" target="_blank">Question Paper5</a></li>
+                      <li><a href="quesppr/MTL106/Question Papers 2.11-12.pdf" target="_blank">Question Paper6</a></li>
+                      <li><a href="quesppr/MTL106/Question Papers 5.8.pdf" target="_blank">Question Paper7</a></li>
+                      <li><a href="quesppr/MTL106/Question Papers 6.9-10.pdf" target="_blank">Question Paper8</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div> 
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a style="color: black;" data-toggle="collapse" data-parent="#accordion" href="#collapse30">
+                    MTL250</a>
+                  </h4>
+                </div>
+                <div id="collapse30" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    <ul style="list-style-type: none;">
+                      <li><a href="quesppr/MTL250/Question Papers 4.6.pdf" target="_blank">Question Paper1</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a style="color: black;" data-toggle="collapse" data-parent="#accordion" href="#collapse31">
+                    MTL390</a>
+                  </h4>
+                </div>
+                <div id="collapse31" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    <ul style="list-style-type: none;">
+                      <li><a href="quesppr/MTL390/Question Papers 5.1.pdf" target="_blank">Question Paper1</a></li>
+                      <li><a href="quesppr/MTL390/Question Papers 5.6-7.pdf" target="_blank">Question Paper2</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a style="color: black;" data-toggle="collapse" data-parent="#accordion" href="#collapse32">
+                    PYL100</a>
+                  </h4>
+                </div>
+                <div id="collapse32" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    <ul style="list-style-type: none;">
+                      <li><a href="quesppr/PYL100/Question Papers 8.6.pdf" target="_blank">Question Paper1</a></li>
+                      <li><a href="quesppr/PYL100/Question Papers 8.7-8.pdf" target="_blank">Question Paper2</a></li>
+                      <li><a href="quesppr/PYL100/Question Papers 8.9.pdf" target="_blank">Question Paper3</a></li>
+                      <li><a href="quesppr/PYL100/Question Papers 8.10.pdf" target="_blank">Question Paper4</a></li>
+                      <li><a href="quesppr/PYL100/Question Papers 8.11.pdf" target="_blank">Question Paper5</a></li>
+                      <li><a href="quesppr/PYL100/Question Papers 8.12.pdf" target="_blank">Question Paper6</a></li>
+                      <li><a href="quesppr/PYL100/Question Papers 9.2.pdf" target="_blank">Question Paper7</a></li>
+                      <li><a href="quesppr/PYL100/Question Papers 9.4.pdf" target="_blank">Question Paper8</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a style="color: black;" data-toggle="collapse" data-parent="#accordion" href="#collapse33">
+                    Analysis and Design of Algo</a>
+                  </h4>
+                </div>
+                <div id="collapse33" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    <ul style="list-style-type: none;">
+                      <li><a href="quesppr/Analysis and Design of Algo/Question Papers 3.4.pdf" target="_blank">Question Paper1</a></li>
+                      <li><a href="quesppr/Analysis and Design of Algo/Question Papers 4.5.pdf" target="_blank">Question Paper2</a></li>
+                      <li><a href="quesppr/Analysis and Design of Algo/Question Papers 6.1-2.pdf" target="_blank">Question Paper3</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div> 
+          </div>
+      </div>
+	</section>
+
+    <footer id="footer" class="midnight-blue" >
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6" "col-xs-6" "col-md-6" "col-lg-6">
+                    Copyright &copy; 2016 Electrical Engineering Society, IIT Delhi. All rights reserved.
+                </div>
+                <div class="col-sm-6" "col-xs-6" "col-md-6" "col-lg-6">
+                    <i>Website created by - <b><a href="https://www.facebook.com/profile.php?id=100007104154119&fref=ts">Vaibhav Srivastava</a> and <a href="https://www.facebook.com/manish.stud?fref=ts">Manish Singh</a></b></i> 
+                    <!--<ul class="pull-right">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Faq</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a id="gototop" class="gototop" href="#"><i class="icon-chevron-up"></i></a></li><!--#gototop--
+                    </ul>-->
+                </div>
+            </div>
+        </div>
+    </footer><!--/#footer-->
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.prettyPhoto.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
