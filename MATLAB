@@ -1,0 +1,5 @@
+imread('...')
+imshow(A)
+im2bw(A, level) --> doesn't work always if the image is very dark type.
+Otsu's method --> For binarising level = graythresh(A);
+Blurring -->  blur_filter = fspecial('average', 3)
